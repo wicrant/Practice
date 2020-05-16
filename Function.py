@@ -1,7 +1,7 @@
 #Main Function
 def main():
-    a = int(input("Enter a number: "))
-    b = int (input("Enter another number: "))
+    a = int(input("Enter a positive number: "))
+    b = int (input("Enter another positive number: "))
     c = expfunction (a, b)
     print ("%d raised to %d :" %(a,b), c)
     str1 = "Hello"
